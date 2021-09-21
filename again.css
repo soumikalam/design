@@ -1,0 +1,531 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{   width: 1140px;
+    margin: 0 auto;
+
+}
+/*header section*/
+header
+{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: #f9f9f9;
+}
+.logo
+{
+    width: 25%;
+    float: left;
+    padding: 10px 0px;
+}
+/*menu*/
+.menu
+{
+    width: 50%;
+    float: left;
+}
+.menu nav ul
+{list-style: none;}
+.menu nav ul li
+{
+    display: inline-block;
+    margin: 28px 30px ;
+}
+.menu nav ul li a
+{ 
+    color: rgb(187, 8, 8);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+
+    transition: .8s ease-in-out;
+    font-weight: 700;
+    padding: 10px 12px;
+}
+nav ul li a:hover {
+    border: 1px solid #f39c9c;
+}
+/*social-icons*/
+.social-icons
+{
+    width: 25%;
+    float: left;
+}
+
+.social-icons ul
+
+    {list-style: none;}  
+
+.social-icons ul li
+{
+    display: inline-block;
+    margin: 28px 15px ;
+}
+
+.social-icons ul li a{
+    font-size: 22px;
+  }
+  .fa.fa-facebook-official{
+    color: #1B3189;
+  }
+  
+  .fa.fa-twitter-square{
+    color: #4951AA;
+  }
+  .fa.fa-linkedin-square{
+    color: #2597F7;
+    }
+  
+  .fa.fa-sign-in{
+    color: #0d0d0e;
+}
+/*banner*/
+.banner
+{ width: 100%;
+    float: left;
+    background: url(img/backpic.jpg)no-repeat;
+    background-size: cover;
+
+}
+.bannersection
+{
+    
+    background: rgba(0,0,0, 0.5);
+    margin: 120px 0px;
+    width: 30%;
+    padding: 25px;
+    border-radius: 12px;
+
+}
+.bannersection h2
+{
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+}
+.bannersection p
+{   color: darkorange;
+    text-align: center;
+    font-size: 19px;
+}
+.bannersection ul
+{
+    list-style: none;
+}
+.bannersection ul li
+{
+ display: inline-block;
+ margin: 10px 20px;
+
+}
+.bannersection ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: .8s ease-in-out;
+    padding: 6px 12px;
+    background: crimson;
+    border-radius: 8px;
+    border: 1px soid rgba(255,255,255,0.3);
+
+}
+.bannersection ul li a:hover {
+    border: 1px solid #f39c9c;}
+
+/*feature*/
+.feature{
+    width:100%;
+    float: left;
+    text-align: center;
+    }
+    .feature h3{
+      padding: 12px;
+    }
+    .feature a{
+      text-decoration: none;
+      border: 1px solid #999;
+      padding: 5px 15px;
+      background: #63C62E;
+      border-radius: 2px;
+      color: #fff;
+      font-size:17px;
+    }
+    .feature p{
+      margin-bottom: 13px;
+    }
+    .featureone{
+      width: 18%;
+      float: left;
+       padding: 12px 6px;
+       margin: 58px 0px 0px 100px;
+    }
+    .featuretwo{
+      width:18%;
+      float: left;
+      padding: 12px 6px;
+      margin-top: 58px;
+    }
+    .featurethree{
+      width: 18%;
+      float: left;
+       padding: 12px 6px;
+      margin-top: 58px;
+    }
+    .featurefour{
+      width: 18%;
+      float: left;
+      padding: 12px 6px;
+      margin-top: 58px;
+    }
+    .fa.fa-check{
+      font-size: 50px;
+      color: #FFF4FE;
+      background: #6979CC;
+      padding: 5px 12px;
+      border-radius: 50px;
+    }
+    .fa.fa-map-marker{
+      font-size: 50px;
+      color: #FFF4FE;
+      background: #009788;
+      padding: 5px 12px;
+      border-radius: 50px;
+    }
+    .fa.fa-money{
+      font-size: 50px;
+      color: #FFF4FE;
+      background: #4CB050;
+      padding: 5px 12px;
+      border-radius: 50px;
+    }
+    .fa.fa-user-plus
+    {
+      font-size: 50px;
+      color: #FFF4FE;
+      background: #97E268;
+      padding: 5px 12px;
+      border-radius: 50px;
+    }
+
+/*investoffer*/
+
+
+.investoffer
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+.invest-offer-one
+{
+    width: 30%;
+    float: left;
+    background: rgba(0,0,0, 0.5);
+    margin: 50px 50px;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.invest-offer-one h2
+{
+    color: brown;
+    font-size: 25px;
+    text-align: center;
+}
+.invest-offer-one ul
+{
+    list-style: square;
+    margin-left: 2%;
+    
+}
+.invest-offer-one li
+{
+ margin: 10px auto;
+}
+
+.invest-offer-one a
+{  
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: .8s ease-in-out;
+    padding: 6px 12px;
+    background: crimson;
+    border-radius: 8px;
+    
+}
+
+
+.invest-offer-two
+{
+    width: 30%;
+    float: left;
+    background: rgba(0,0,0, 0.5);
+    margin: 50px 50px;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.invest-offer-two h2
+{
+    color: brown;
+    font-size: 25px;
+    text-align: center;
+}
+.invest-offer-two ul
+{
+    list-style: square;
+    margin-left: 2%;
+    
+}
+.invest-offer-two li
+{
+ margin: 10px auto;
+}
+
+.invest-offer-two a
+{  
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: .8s ease-in-out;
+    padding: 6px 12px;
+    background: crimson;
+    border-radius: 8px;
+    
+}
+.blog
+{
+    width: 100%;
+    float: left;
+}
+.blog h2
+{
+ text-align: center;
+ font-size: 25px;
+ color: brown;
+}
+.blogleft
+{
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+   
+}
+.blogleft h2
+{
+    font-size: 20px;
+    color: cyan;
+    padding: 20px 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+.blogleft p
+{
+    font-size: 15px;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+.blogleft a{
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: .8s ease-in-out;
+    padding: 6px 12px;
+    background: crimson;
+    border-radius: 8px;
+
+}
+
+.blogright
+{
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+    
+}
+.blogright h2
+{
+    font-size: 20px;
+    color: cyan;
+    padding: 20px 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+.blogright p
+{
+    font-size: 15px;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+.blogright a{
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: .8s ease-in-out;
+    padding: 6px 12px;
+    background: crimson;
+    border-radius: 8px;
+    
+
+}
+
+.afterblog
+{   width: 100%;
+    float: left;
+    margin-top: 20px;
+    background: #f9f9f9;
+   
+  
+}
+.lent{
+    padding: 24px 0px;
+text-align: center;
+
+}
+
+
+
+.lent p {
+
+font-size: 18px;
+font-weight: 400;
+padding: 6px 0px;
+}
+
+
+.rating{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    background: rgb(78, 73, 73);
+    
+}
+.review{
+    text-align: center;
+
+}
+.review ul{
+    list-style: none;
+}
+
+.review li
+{
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+.fa.fa-star.rate
+{ background: limegreen;
+    color: rgb(39, 36, 197);
+    padding: 5px 8px;
+
+}
+.fa.fa-star.head
+{
+    color:rgb(50, 135, 205);
+    font-size: 50px;
+}
+.fa.fa-star.head::after
+{
+content: "Trustpoint";
+font-size: 20px;
+color: linen;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fa.fa-star.no-rating
+{
+  background:limegreen ;
+    color: linen;
+    padding: 5px 8px;
+
+}
+footer{
+    width: 100%;
+    
+    float: left;
+    background: black;
+}
+.footer-one{
+    width: 48%;
+    float: left;
+    text-align: right;
+    padding-top: 20px;  
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.footer-two{
+    width: 4%;
+    float: left;
+}
+.footer-three{
+    text-align: left;
+    padding: 20px 20px;
+    width: 48%;
+    float: left;
+}
+footer p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
